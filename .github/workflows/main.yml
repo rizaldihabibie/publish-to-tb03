@@ -22,7 +22,7 @@ jobs:
       - name: Test
         run: |
           pwd
-          ls -lh hbb
+          ls -lh /home/eluon/hbb
   compile:
     runs-on: self-hosted
     name: Running maven compile
